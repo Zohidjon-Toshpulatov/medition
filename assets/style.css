@@ -56,12 +56,45 @@
     background: #213A38E0;
 }
 
+.section-review{
+    padding-top: 170px;
+    padding-bottom: 170px;
+}
+
+.section-review-img div{
+    height: 667px;
+}
+
 .section-review-img img{
     width: 100%;
+    height: 100%;
 }
 
 .section-review__review{
     background-color: #D3E7E7;
+    margin-right: 40px;
+    padding-right: 75px;
+    padding-left: 266px;
+}
+
+.section-card{
+    padding-top: 145px;
+    padding-bottom:160px;
+    background-color: #112A2D;
+}
+
+.section-card .card{
+    position: relative;
+}
+
+.section-card .card-img-top{
+    position: absolute;
+    top: -170px;
+}
+
+.section-card .card{
+    background-color: #51908B;
+    padding-top: 170px;
 }
 
 .mb-40{
@@ -73,16 +106,28 @@
     padding-bottom: 169px;
 }
 
+.section-opinion-img div{
+    height: 437px;
+}
 .section-opinion img{
     width: 100%;
+    height: 100%;
 }
 
 .section-opinion__review{
     margin-left: 40px;
+    background-color: #D3E7E7;
+    padding-left: 170px;
+    padding-right: 270px;
 }
 
+.section-opinion__review p{
+    color: #424143;
+}
 
-
+.section-opinion__review button{
+    width: 100px;
+}
 
 .section-contact{
     min-height: 100vh;
