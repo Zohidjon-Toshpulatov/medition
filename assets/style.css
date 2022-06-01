@@ -1,0 +1,131 @@
+
+.nav-inner-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between !important;
+}
+
+
+.social-links{
+    /* margin-right: auto !important; */
+}
+
+.social-links a{
+    margin-left: 40px;
+}
+
+.nav-icons{
+    max-width: 24px;
+    width: 100%;
+}
+
+
+.navbar-brand{
+    padding: 0;
+    margin: 0;
+    width: 128px;
+    height: 75px;
+}
+
+.navbar-brand img{
+    width: 100%;
+    height: 100%;
+}
+
+.nav-item{
+    margin-left: 40px;
+}
+
+.nav-link{
+    font-size: 26px;
+    line-height: 40px;
+    color: #424143;
+    font-weight: normal;
+}
+
+.section-hero{
+    height: 90vh;
+    width: 100%;
+    background-image: url('./images/Mask\ Group\ 1@2x.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-hero-content{
+    background: #213A38E0;
+}
+
+.section-review-img img{
+    width: 100%;
+}
+
+.section-review__review{
+    background-color: #D3E7E7;
+}
+
+.mb-40{
+    margin-bottom: 40px;
+}
+
+.section-opinion{
+    padding-top:169px;
+    padding-bottom: 169px;
+}
+
+.section-opinion img{
+    width: 100%;
+}
+
+.section-opinion__review{
+    margin-left: 40px;
+}
+
+
+
+
+.section-contact{
+    min-height: 100vh;
+    height: 100%;
+    width: 100%;
+    background-image: url('./images/Mask\ Group\ 25@2x.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 3px 6px #00000029;
+    mix-blend-mode: hard-light;
+    /* opacity: 0.7; */
+    position: relative;
+    z-index: 0;
+}
+
+.section-contact-overlay{
+    direction: rtl;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #213A38E0;
+    box-shadow: 0px 3px 6px #00000029;
+    mix-blend-mode: hard-light;
+    /* opacity: 0.7; */
+    z-index: 1;
+}
+
+.section-contact-overlay h2{
+    font-size: 32px;
+    line-height: 45px;
+}
+
+.section-contact-overlay .form{
+    padding: 40px 46px;
+    background: #112A2D;
+    z-index: 2;
+}
+
+.section-contact-overlay .btn-submit{
+    background-color: #D3E7E7;
+}
