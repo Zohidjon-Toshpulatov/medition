@@ -43,6 +43,13 @@
     font-weight: normal;
 }
 
+.nav-item .active{
+    background-image: url(./images/bg-link.png);
+    background-position: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .section-hero{
     height: 1010px;
     width: 100%;
@@ -74,6 +81,11 @@
     width: 540px;
     left: 0;
     top: -300px;
+}
+
+.section-card .home-bird-right{
+    width: 480px;
+    right: 0;
 }
 
 .section-review-img div{
