@@ -68,6 +68,14 @@
     padding-bottom: 170px;
 }
 
+
+.section-review .home-bird-left {
+    position: absolute;
+    width: 540px;
+    left: 0;
+    top: -300px;
+}
+
 .section-review-img div{
     height: 667px;
 }
@@ -84,10 +92,15 @@
     padding-left: 266px;
 }
 
+
 .section-card{
-    padding-top: 315px;
+    padding-top: 145px;
     padding-bottom:160px;
     background-color: #112A2D;
+}
+
+.section-card h1{
+    margin-bottom: 235px;
 }
 
 .section-card .card{
@@ -191,6 +204,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    margin-bottom: 100px;
 }
 
 .help-section-hero-overlay{
@@ -203,6 +217,16 @@
     color: #D3E7E7;
 }
 
+.help-section-carousel{
+    background-color: #E4F0F0;
+    padding-top: 146px;
+    padding-bottom: 157px;
+}
+
+.help-section-carousel .card{
+    background-color: #51908B;
+}
+
 /*End of help page*/
 
 /* Single blog page styles */
@@ -212,8 +236,13 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+
 }
 
+.sblog-section-subscribe{
+    padding-top: 146px;
+    padding-bottom: 146px;
+}
 
 .sblog-section-subscribe .subscribe-form{
     padding: 50px;
