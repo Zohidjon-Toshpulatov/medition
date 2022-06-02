@@ -1,3 +1,7 @@
+body{
+    font-family: 'Heebo';
+}
+
 /* Home Page */
 .nav-inner-container{
     display: flex;
@@ -43,12 +47,16 @@
     font-weight: normal;
 }
 
+
+
 .nav-item .active{
     background-image: url(./images/bg-link.png);
-    background-position: contain;
+    background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 50px;
+    font-weight: bold;
 }
+
 
 .section-hero{
     height: 1010px;
@@ -105,6 +113,15 @@
 }
 
 
+.section-review__review .btn{
+    width: 160px;
+    background-image: url(./images/button-bg.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-weight: bold;
+}
+
 .section-card{
     padding-top: 145px;
     padding-bottom:160px;
@@ -159,6 +176,11 @@
 
 .section-opinion__review button{
     width: 100px;
+    background-image: url(./images/button-bg.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-weight: bold;
 }
 
 .section-contact{
@@ -233,12 +255,17 @@
     background-color: #E4F0F0;
     padding-top: 146px;
     padding-bottom: 157px;
+
 }
 
 .help-section-carousel .card{
     background-color: #51908B;
+    padding: 86px 0 100px 0;
 }
 
+.carousel-card-img{
+    margin-top: 75px;
+}
 /*End of help page*/
 
 /* Single blog page styles */
