@@ -373,6 +373,12 @@ input.form-control {
   top: -4rem;
   transform: rotateY(180deg);
 }
+
+#s2blog-bird-right {
+  right: -22rem;
+  top: 14rem;
+  transform: rotateY(180deg);
+}
 /*End of help page*/
 
 /*Start of gallery page*/
