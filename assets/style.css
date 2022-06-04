@@ -8,7 +8,7 @@
 }
 
 .text-dark {
-    color: var(--text-color)!important;
+  color: var(--text-color) !important;
 }
 
 body {
@@ -316,7 +316,7 @@ input.form-control {
 }
 
 .help-bio p {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .help-section-carousel .slider-title {
@@ -437,14 +437,12 @@ input.form-control {
 /*End of gallery page*/
 
 /* Single blog page styles */
-.sblog-section-hero {
-  height: 660px;
+#sblog-section-hero {
   background-image: url(./images/blog-hero.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 }
-
+#sblog-section-hero .help-section-hero-overlay {
+  background-color: rgb(17 42 45 / 35%);
+}
 .sblog-section-subscribe {
   padding-top: 146px;
   padding-bottom: 146px;
