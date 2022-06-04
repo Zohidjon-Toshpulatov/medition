@@ -367,6 +367,12 @@ input.form-control {
   bottom: -9rem;
   max-width: 33.75rem;
 }
+
+#sblog-bird-right {
+  right: -22rem;
+  top: -4rem;
+  transform: rotateY(180deg);
+}
 /*End of help page*/
 
 /*Start of gallery page*/
@@ -442,6 +448,69 @@ input.form-control {
 }
 #sblog-section-hero .help-section-hero-overlay {
   background-color: rgb(17 42 45 / 35%);
+}
+
+.sblog-section-blog {
+  padding-top: 10.75rem;
+  max-width: 90rem;
+}
+
+.blog-content-wrapper .blog-date {
+  color: #1c3230ed;
+}
+
+.blog-content-wrapper .blog-heading {
+  color: #51908b;
+  font-weight: normal;
+}
+
+.blog-content-wrapper {
+  max-width: 42rem;
+}
+
+.blog-author-info {
+  max-width: 22rem;
+  border-bottom: 1px solid var(--unnamed-color-51908b);
+}
+
+.blog-author-img {
+  max-width: 16.875rem;
+}
+
+.sblog-articles-section {
+  gap: 70px;
+  max-width: 90rem;
+  margin-top: 5.5rem;
+}
+
+.sblog-lightbox-wrapper {
+  max-width: 51rem;
+}
+
+.sblog-article-list {
+  max-width: 21rem;
+}
+
+.sblog-article-list img {
+  width: 10rem;
+}
+
+.sblog-article-list .blog-info {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.sblog-lightbox {
+  height: 14.5rem;
+  width: 18rem;
+  overflow: hidden;
+}
+.sblog-lightbox img {
+  height: 100%;
+}
+.sblog-lightbox-main-img {
+  width: 100%;
 }
 .sblog-section-subscribe {
   padding-top: 146px;
