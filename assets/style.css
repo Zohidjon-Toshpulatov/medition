@@ -13,6 +13,9 @@ body{
 
 .social-links{
     /* margin-right: auto !important; */
+}
+
+.section-contact .social-links {
     margin-top: 4.5rem;
 }
 
@@ -168,7 +171,10 @@ body{
     padding-bottom: 169px;
 }
 
-
+.section-opinion-img {
+    max-width: 670px;
+    min-width: 670px;
+}
 .section-opinion img{
     width: auto;
     height: 437px;
@@ -178,6 +184,8 @@ body{
     background-color: #D3E7E7;
     padding-left: 170px;
     padding-right: 270px;
+    margin-left: 40px;
+    max-width: 61.5rem;
 }
 
 .section-opinion__review p{
