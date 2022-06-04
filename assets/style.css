@@ -7,6 +7,10 @@
   --unnamed-color-51908b: #51908b;
 }
 
+.text-dark {
+    color: var(--text-color)!important;
+}
+
 body {
   font-family: "Heebo";
   font-size: 16px;
@@ -305,6 +309,16 @@ input.form-control {
   padding-bottom: 157px;
   box-shadow: 0px 3px 6px #00000029;
 }
+
+.help-section-carousel .carousel-inner {
+  max-width: 1400px;
+  margin-right: 84px;
+}
+
+.help-bio p {
+    font-size: 20px;
+}
+
 .help-section-carousel .slider-title {
   margin-top: 9rem;
   margin-bottom: 4rem;
@@ -312,9 +326,30 @@ input.form-control {
   color: var(--text-color);
 }
 
+.carousel-control-prev-icon {
+  background-image: url("./images/prev.svg");
+  background-repeat: no-repeat;
+}
+
+.carousel-control-next {
+  margin-right: -5.25rem;
+}
+.carousel-control-prev {
+  margin-left: -5.25rem;
+}
+.carousel-control-next-icon {
+  background-image: url("./images/next.svg");
+  background-repeat: no-repeat;
+}
+
+.help-carausel {
+  max-width: 98rem;
+}
+
 .help-section-carousel .card {
   background-color: var(--unnamed-color-51908b);
   padding: 86px 0 100px 0;
+  max-width: 27.5rem;
 }
 
 .carousel-card-img {
