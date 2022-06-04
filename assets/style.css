@@ -268,10 +268,44 @@ body{
 }
 /*End of help page*/
 
+/*Start of gallery page*/
+.gallery-section-hero{
+    height: 660px;
+    width: 100%;
+    background-image: url(./images/gallery-hero.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.gallery-section-gallery{
+    background: #E4F0F0;
+    padding-top: 145px;
+    padding-bottom: 158px;
+    margin-top: 172px;
+    margin-bottom: 156px;
+}
+
+.gallery-section-gallery .card{
+    height: 404px;
+}
+
+.gallery-section-gallery .card img{
+    height: 100%;
+}
+
+
+.gallery-section-gallery .card-body{
+    width: 100%;
+    background-color: #213A38E0;
+    bottom: 0;
+}
+/*End of gallery page*/
+
 /* Single blog page styles */
 .sblog-section-hero{
     height: 660px;
-    background-image: url(./images/Mask\ Group\ 25@2x.png);
+    background-image: url(./images/blog-hero.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
