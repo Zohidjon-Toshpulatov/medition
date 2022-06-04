@@ -3,7 +3,7 @@
   --super-light-green: #e4f0f0;
   --unnamed-color-1c3230ed: #1c3230ed;
   --text-color: #424143;
-  --light-green: #D3E7E7;
+  --light-green: #d3e7e7;
   --unnamed-color-51908b: #51908b;
 }
 
@@ -58,7 +58,7 @@ body {
 .nav-link {
   font-size: 26px;
   line-height: 40px;
-  color: var(--text-color)
+  color: var(--text-color);
   font-weight: normal;
 }
 
@@ -195,7 +195,7 @@ body {
 }
 
 .section-opinion__review p {
-  color: var(--text-color)
+  color: var(--text-color);
 }
 
 .section-opinion__review button {
@@ -276,7 +276,7 @@ input.form-control {
 }
 
 #help-section-hero {
-    background-image: url(./images/help-hero.png);
+  background-image: url(./images/help-hero.png);
 }
 
 .help-section-bird {
@@ -309,7 +309,7 @@ input.form-control {
   margin-top: 9rem;
   margin-bottom: 4rem;
   font-style: italic;
-  color: var(--text-color)
+  color: var(--text-color);
 }
 
 .help-section-carousel .card {
@@ -328,9 +328,9 @@ input.form-control {
 }
 
 #gallery-sblog-bird-left {
-    left: -16rem;
-    bottom: -9rem;
-    max-width: 33.75rem;
+  left: -16rem;
+  bottom: -9rem;
+  max-width: 33.75rem;
 }
 /*End of help page*/
 
@@ -340,7 +340,7 @@ input.form-control {
 }
 
 #gallery-section-hero .help-section-hero-overlay {
-    background-color: rgb(17 42 45 / 15%);
+  background-color: rgb(17 42 45 / 15%);
 }
 
 .gallery-section-gallery {
@@ -352,14 +352,13 @@ input.form-control {
 }
 
 .gallery-title {
-    margin-bottom: 4rem;
-    color: var(--text-color);
+  margin-bottom: 4rem;
+  color: var(--text-color);
 }
 
 .gallery-card-container {
-    max-width: 90rem;
-    gap: 20px;
-    
+  max-width: 90rem;
+  gap: 20px;
 }
 
 .gallery-section-gallery .card {
@@ -378,27 +377,26 @@ input.form-control {
 }
 
 .gallery-pagination {
-    gap: 40px;
+  gap: 40px;
 }
 
 .gallery-pagination button {
-    width: 2rem;
-    height: 2rem;
-    background-color: var(--dark-green);
-    font-style: italic;
-    font-size: 1rem;
-    font-weight: bold;
+  width: 2rem;
+  height: 2rem;
+  background-color: var(--dark-green);
+  font-style: italic;
+  font-size: 1rem;
+  font-weight: bold;
 }
 
 .gallery-pagination button:hover {
-    background-color: var(--unnamed-color-51908b);
-    border: 0;
+  background-color: var(--unnamed-color-51908b);
+  border: 0;
 }
 
-
 .gallery-pagination button.active {
-    background-color: var(--unnamed-color-51908b);
-    border: 0;
+  background-color: var(--unnamed-color-51908b);
+  border: 0;
 }
 
 /*End of gallery page*/
@@ -428,11 +426,10 @@ input.form-control {
 
 .sblog-section-subscribe .subscribe-form {
   padding: 50px;
-  margin:  2.5rem 28rem  1.75rem 28rem;
+  margin: 2.5rem 28rem 1.75rem 28rem;
   background-color: var(--dark-green);
   max-width: 52.5rem;
 }
-
 
 .sblog-section-subscribe .form-control {
   padding: 14px;
@@ -443,3 +440,84 @@ input.form-control {
   padding: 14px;
   background-color: var(--super-light-green);
 }
+/* Single blog 2 start */
+.sblog2-section-main {
+  margin-top: 173px;
+  /* margin-bottom: 156px; */
+  margin-left: 183px;
+}
+
+.sblog2-section-main .inner-container {
+  gap: 38px;
+}
+
+.img-container {
+  width: 923px;
+}
+
+.secondary-img-container {
+  width: 923px;
+  gap: 3.5%;
+  margin-bottom: 38px;
+  height: 231px;
+}
+
+.img-container .lightbox-container {
+  padding: 32px 0;
+  background-color: #e4f0f0;
+}
+
+.secondary-img {
+  height: 100%;
+  width: 31%;
+}
+
+.img-container .main-img {
+  width: 100%;
+  height: 418px;
+  margin-bottom: 38px;
+}
+
+.img-container .carousel-container {
+  width: 100%;
+  padding: 40px 68px 32px 68px;
+}
+
+.img-container .card-container {
+  width: 160px;
+  height: 185px;
+}
+
+.sblog2-section-main .text-container {
+  padding: 86px 76px 0px 136px;
+  background-color: #e4f0f0;
+}
+
+.sblog2-section-main .text-container h1 {
+  color: #424143;
+  font-size: 32px;
+  font-size: 40px;
+}
+
+.sblog2-section-main .date {
+  color: #1c3230ed;
+  margin-bottom: 27px;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.sblog2-section-main .text-container p {
+  margin-bottom: 27px;
+  color: #424143;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.sblog2-section-main .text-container .blue-text {
+  font-size: 24px;
+  line-height: 32px;
+  margin-bottom: 32px;
+  color: #51908b;
+}
+
+/* Single blog 2 end */
