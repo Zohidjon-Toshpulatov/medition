@@ -74,15 +74,19 @@
 
             </div>
         </div>
-
     </nav>
-    <div class="help-section-hero container-fluid px-0">
+    
+    <div id="help-section-hero" class="help-section-hero gallery-section-hero container-fluid px-0">
         <div class="help-section-hero-overlay d-flex align-items-center justify-content-center">
-            <h1>כותרת / ציטוט</h1>
+            <h1 class="font-italic">כותרת / ציטוט</h1>
         </div>
     </div>
-    <div class="help-section-carousel container-fluid">
-        <h1 class="text-center">?מה אומרים עליי</h1>
+
+    <div class="help-section-carousel position-relative overflow-hidden">
+        <div class="position-relative help-section-bird bg-white">
+            <img class="position-absolute" src="./assets/images/bird-grey.svg" alt="grey bird">
+        </div>
+        <h2 class="text-center slider-title font-italic">?מה אומרים עליי</h2>
         <div class="container">
             <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
@@ -292,13 +296,14 @@
             </div>
         </div>
     </div>
-    <div class="sblog-section-subscribe container-fluid text-center">
-        <h1>
+    <div class="sblog-section-subscribe container-fluid text-center position-relative">
+        <img id="help-sblog-bird-left" class="position-absolute" src="./assets/images/bird-grey.svg" alt="bird-gray">
+        <h2 class="mb-4 sblog-title">
             ?אהבת את מה שקראת
-        </h1>
+        </h2>
         <div class="row mx-0">
             <div class="col-lg-5 mx-auto">
-                <p>
+                <p class="sblog-description mx-auto">
                     לפרומי בלוף קינץ תתיח לרעח. לת צשחמי צש בליא, מנסוטו צמלח לביקו ננבי, צמוקו בלוקריה שיצמה ברורק.
                     קוואזי במר
                     מודוף.
@@ -307,17 +312,15 @@
                 </p>
             </div>
         </div>
-        <div class="row mx-0">
-            <div class="col-lg-6 mx-auto">
-                <form action="" class="subscribe-form mb-4">
-                    <input type="text" class="form-control bg-transparent text-light border-1 border-light rounded-0"
-                        placeholder="כתובת מייל">
-                    <button type="submit" class="btn bg-light mt-3 w-100 rounded-0">אני רוצה להרשם</button>
-                </form>
-                <p>
-                    הערה חשובה פה למטה בכוכבית *
-                </p>
-            </div>
+        <div class="row mx-0 justify-content-center ">
+            <form action="" class="subscribe-form mb-4">
+                <input type="text" class="form-control bg-transparent text-light border-1 border-light rounded-0"
+                    placeholder="כתובת מייל">
+                <button type="submit" class="btn bg-light mt-3 w-100 rounded-0">אני רוצה להרשם</button>
+            </form>
+            <p>
+                הערה חשובה פה למטה בכוכבית *
+            </p>
         </div>
     </div>
 </body>
