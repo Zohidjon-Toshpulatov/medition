@@ -290,7 +290,7 @@ input.form-control {
 .help-section-bird img {
   transform: rotateY(180deg);
   top: -17rem;
-  margin-right: 13rem;
+  margin-right: 25rem;
   max-width: 540px;
 }
 .help-section-hero-overlay {
