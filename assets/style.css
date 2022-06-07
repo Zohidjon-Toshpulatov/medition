@@ -584,7 +584,8 @@ input.form-control {
   width: 16rem;
 }
 
-.caption p, .caption h6 {
+.caption p,
+.caption h6 {
   font-size: 18px;
   text-align: center;
 }
@@ -594,11 +595,11 @@ input.form-control {
 }
 
 #s2blog-lightbox .box {
-  gap: 2rem ;
+  gap: 2rem;
 }
 
 #s2blog-lightbox .sblog-lightbox-main-img {
-  margin-top: 2rem
+  margin-top: 2rem;
 }
 
 .secondary-img-container {
@@ -651,6 +652,15 @@ input.form-control {
 
 .sblog2-section-main .text-container .blue-text {
   margin-bottom: 32px;
+}
+
+.bottom-indicators {
+  padding: 0 12px;
+}
+
+#staticBackdrop {
+  background: rgb(5 9 10);
+  padding: 11%;
 }
 
 /* Single blog 2 end */

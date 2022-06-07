@@ -1,9 +1,9 @@
-window.addEventListener('load', function () {
-    const mainImg = document.getElementById('light-box-main-img');
-    const slides = document.getElementsByClassName('my-slide');
-    for (let i = 0; i < slides.length; i++) {
-        slides[i].addEventListener('click', (e) => {
-            mainImg.setAttribute('src', e.target.src)
-        })
-    }
-})
+
+
+// function showSlides(index) {
+//     const caraousel = document.getElementById('custom-caraosel');
+//     var carousel = new bootstrap.Carousel(caraousel)
+//     const cItems = document.getElementsByClassName('modal-c-item')
+//     carousel.to(i)
+//     console.log(cItems[i])
+// }
