@@ -6,8 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HP</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./assets/bootstrap-5.2.0-beta1-dist/css/bootstrap.min.css">
-    <script src="./assets/bootstrap-5.2.0-beta1-dist/js/bootstrap.min.js" defer></script>
+
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" href="./assets/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700&display=swap"
         rel="stylesheet">
@@ -87,213 +91,117 @@
             <img class="position-absolute" src="./assets/images/bird-grey.svg" alt="grey bird">
         </div>
         <h2 class="text-center slider-title font-italic">?מה אומרים עליי</h2>
-        <div class="help-carausel mx-auto">
-            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="fa;s">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <div class="d-flex gap-3 gap-lg-5">
-                            <div class="card rounded-0 px-5 border-0">
-                                <div class="card-body text-center">
-                                    <img src="./assets/images/bird.png" alt="" class="mb-40">
-                                    <p class="card-text text-white">
-                                        לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית גולר מונפרר סוברט לורם
-                                        שבצק יהול, לכנוץ בעריר גק ליץ, ושבעגט ליבם
-                                        סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי
-                                        מורגם בורק? לתיג ישבעס.
-                                    </p>
-                                    <img src="./assets/carousel3.png" alt="" class="carousel-card-img">
-                                    <div class="help-bio">
-                                        <p class="text-dark fw-bold mt-3 mb-0">
-                                            שם הממליץ
-                                        </p>
-                                        <p class="text-white">
-                                            מה התפקיד בשורה אחת
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card rounded-0 px-5 border-0">
-                                <div class="card-body text-center">
-                                    <img src="./assets/images/bird.png" alt="" class="mb-40">
-                                    <p class="card-text text-white">
-                                        לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית גולר מונפרר סוברט לורם
-                                        שבצק יהול, לכנוץ בעריר גק ליץ, ושבעגט ליבם
-                                        סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי
-                                        מורגם בורק? לתיג ישבעס.
-                                    </p>
-                                    <img src="./assets/carousel2.png" alt="" class="carousel-card-img">
-                                    <div class="help-bio">
-                                        <p class="text-dark fw-bold mt-3 mb-0">
-                                            שם הממליץ
-                                        </p>
-                                        <p class="text-white">
-                                            מה התפקיד בשורה אחת
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card rounded-0 px-5 border-0">
-                                <div class="card-body text-center">
-                                    <img src="./assets/images/bird.png" alt="" class="mb-40">
-                                    <p class="card-text text-white">
-                                        לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית גולר מונפרר סוברט לורם
-                                        שבצק יהול, לכנוץ בעריר גק ליץ, ושבעגט ליבם
-                                        סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי
-                                        מורגם בורק? לתיג ישבעס.
-                                    </p>
-                                    <img src="./assets/carousel1.png" alt="" class="carousel-card-img">
-                                    <div class="help-bio">
-                                        <p class="text-dark fw-bold mt-3 mb-0">
-                                            שם הממליץ
-                                        </p>
-                                        <p class="text-white">
-                                            מה התפקיד בשורה אחת
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="d-flex gap-3 gap-lg-5">
-                            <div class="card rounded-0 px-5 border-0">
-                                <div class="card-body text-center">
-                                    <img src="./assets/images/bird.png" alt="" class="mb-40">
-                                    <p class="card-text text-white">
-                                        לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית גולר מונפרר סוברט לורם
-                                        שבצק יהול, לכנוץ בעריר גק ליץ, ושבעגט ליבם
-                                        סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי
-                                        מורגם בורק? לתיג ישבעס.
-                                    </p>
-                                    <img src="./assets/carousel3.png" alt="" class="carousel-card-img">
-                                    <div class="help-bio">
-                                        <p class="text-dark fw-bold mt-3 mb-0">
-                                            שם הממליץ
-                                        </p>
-                                        <p class="text-white">
-                                            מה התפקיד בשורה אחת
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card rounded-0 px-5 border-0">
-                                <div class="card-body text-center">
-                                    <img src="./assets/images/bird.png" alt="" class="mb-40">
-                                    <p class="card-text text-white">
-                                        לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית גולר מונפרר סוברט לורם
-                                        שבצק יהול, לכנוץ בעריר גק ליץ, ושבעגט ליבם
-                                        סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי
-                                        מורגם בורק? לתיג ישבעס.
-                                    </p>
-                                    <img src="./assets/carousel2.png" alt="" class="carousel-card-img">
-                                    <div class="help-bio">
-                                        <p class="text-dark fw-bold mt-3 mb-0">
-                                            שם הממליץ
-                                        </p>
-                                        <p class="text-white">
-                                            מה התפקיד בשורה אחת
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card rounded-0 px-5 border-0">
-                                <div class="card-body text-center">
-                                    <img src="./assets/images/bird.png" alt="" class="mb-40">
-                                    <p class="card-text text-white">
-                                        לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית גולר מונפרר סוברט לורם
-                                        שבצק יהול, לכנוץ בעריר גק ליץ, ושבעגט ליבם
-                                        סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי
-                                        מורגם בורק? לתיג ישבעס.
-                                    </p>
-                                    <img src="./assets/carousel1.png" alt="" class="carousel-card-img">
-                                    <div class="help-bio">
-                                        <p class="text-dark fw-bold mt-3 mb-0">
-                                            שם הממליץ
-                                        </p>
-                                        <p class="text-white">
-                                            מה התפקיד בשורה אחת
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="d-flex gap-3 gap-lg-5">
-                            <div class="card rounded-0 px-5 border-0">
-                                <div class="card-body text-center">
-                                    <img src="./assets/images/bird.png" alt="" class="mb-40">
-                                    <p class="card-text text-white">
-                                        לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית גולר מונפרר סוברט לורם
-                                        שבצק יהול, לכנוץ בעריר גק ליץ, ושבעגט ליבם
-                                        סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי
-                                        מורגם בורק? לתיג ישבעס.
-                                    </p>
-                                    <img src="./assets/carousel3.png" alt="" class="carousel-card-img">
-                                    <div class="help-bio">
-                                        <p class="text-dark fw-bold mt-3 mb-0">
-                                            שם הממליץ
-                                        </p>
-                                        <p class="text-white">
-                                            מה התפקיד בשורה אחת
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card rounded-0 px-5 border-0">
-                                <div class="card-body text-center">
-                                    <img src="./assets/images/bird.png" alt="" class="mb-40">
-                                    <p class="card-text text-white">
-                                        לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית גולר מונפרר סוברט לורם
-                                        שבצק יהול, לכנוץ בעריר גק ליץ, ושבעגט ליבם
-                                        סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי
-                                        מורגם בורק? לתיג ישבעס.
-                                    </p>
-                                    <img src="./assets/carousel2.png" alt="" class="carousel-card-img">
-                                    <div class="help-bio">
-                                        <p class="text-dark fw-bold mt-3 mb-0">
-                                            שם הממליץ
-                                        </p>
-                                        <p class="text-white">
-                                            מה התפקיד בשורה אחת
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card rounded-0 px-5 border-0">
-                                <div class="card-body text-center">
-                                    <img src="./assets/images/bird.png" alt="" class="mb-40">
-                                    <p class="card-text text-white">
-                                        לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית גולר מונפרר סוברט לורם
-                                        שבצק יהול, לכנוץ בעריר גק ליץ, ושבעגט ליבם
-                                        סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי
-                                        מורגם בורק? לתיג ישבעס.
-                                    </p>
-                                    <img src="./assets/carousel1.png" alt="" class="carousel-card-img">
-                                    <div class="help-bio">
-                                        <p class="text-dark fw-bold mt-3 mb-0">
-                                            שם הממליץ
-                                        </p>
-                                        <p class="text-white">
-                                            מה התפקיד בשורה אחת
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
+        <div class="help-carausel position-relative mx-auto">
+            <div class="d-flex gap-3 gap-lg-5 slider">
+                <div class="card rounded-0 mx-5 px-5 border-0">
+                    <div class="card-body text-center">
+                        <img src="./assets/images/bird.png" alt="" class="mb-40 d-inline">
+                        <p class="card-text text-white">
+                            לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית גולר מונפרר סוברט לורם
+                            שבצק יהול, לכנוץ בעריר גק ליץ, ושבעגט ליבם
+                            סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי
+                            מורגם בורק? לתיג ישבעס.
+                        </p>
+                        <img src="./assets/carousel3.png" alt="" class="carousel-card-img d-inline">
+                        <div class="help-bio">
+                            <p class="text-dark fw-bold mt-3 mb-0">
+                                שם הממליץ
+                            </p>
+                            <p class="text-white">
+                                מה התפקיד בשורה אחת
+                            </p>
                         </div>
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
+                <div class="card rounded-0 mx-5 px-5 border-0">
+                    <div class="card-body text-center">
+                        <img src="./assets/images/bird.png" alt="" class="mb-40 d-inline">
+                        <p class="card-text text-white">
+                            לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית גולר מונפרר סוברט לורם
+                            שבצק יהול, לכנוץ בעריר גק ליץ, ושבעגט ליבם
+                            סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי
+                            מורגם בורק? לתיג ישבעס.
+                        </p>
+                        <img src="./assets/carousel2.png" alt="" class="carousel-card-img d-inline">
+                        <div class="help-bio">
+                            <p class="text-dark fw-bold mt-3 mb-0">
+                                שם הממליץ
+                            </p>
+                            <p class="text-white">
+                                מה התפקיד בשורה אחת
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card rounded-0 mx-5 px-5 border-0">
+                    <div class="card-body text-center">
+                        <img src="./assets/images/bird.png" alt="" class="mb-40 d-inline">
+                        <p class="card-text text-white">
+                            לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית גולר מונפרר סוברט לורם
+                            שבצק יהול, לכנוץ בעריר גק ליץ, ושבעגט ליבם
+                            סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי
+                            מורגם בורק? לתיג ישבעס.
+                        </p>
+                        <img src="./assets/carousel1.png" alt="" class="carousel-card-img d-inline">
+                        <div class="help-bio">
+                            <p class="text-dark fw-bold mt-3 mb-0">
+                                שם הממליץ
+                            </p>
+                            <p class="text-white">
+                                מה התפקיד בשורה אחת
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card rounded-0 mx-5 px-5 border-0">
+                    <div class="card-body text-center">
+                        <img src="./assets/images/bird.png" alt="" class="mb-40 d-inline">
+                        <p class="card-text text-white">
+                            לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית גולר מונפרר סוברט לורם
+                            שבצק יהול, לכנוץ בעריר גק ליץ, ושבעגט ליבם
+                            סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי
+                            מורגם בורק? לתיג ישבעס.
+                        </p>
+                        <img src="./assets/carousel3.png" alt="" class="carousel-card-img d-inline">
+                        <div class="help-bio">
+                            <p class="text-dark fw-bold mt-3 mb-0">
+                                שם הממליץ
+                            </p>
+                            <p class="text-white">
+                                מה התפקיד בשורה אחת
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card rounded-0 mx-5 px-5 border-0">
+                    <div class="card-body text-center">
+                        <img src="./assets/images/bird.png" alt="" class="mb-40 d-inline">
+                        <p class="card-text text-white">
+                            לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית גולר מונפרר סוברט לורם
+                            שבצק יהול, לכנוץ בעריר גק ליץ, ושבעגט ליבם
+                            סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי
+                            מורגם בורק? לתיג ישבעס.
+                        </p>
+                        <img src="./assets/carousel2.png" alt="" class="carousel-card-img d-inline">
+                        <div class="help-bio">
+                            <p class="text-dark fw-bold mt-3 mb-0">
+                                שם הממליץ
+                            </p>
+                            <p class="text-white">
+                                מה התפקיד בשורה אחת
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
+            <button class="slick-prev carousel-control-prev" type="button">
+                <span class="carousel-control-prev-icon me-5" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="slick-next carousel-control-next" type="button">
+                <span class="carousel-control-next-icon ms-5" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
     </div>
     <div class="sblog-section-subscribe container-fluid text-center position-relative">
@@ -323,6 +231,8 @@
             </p>
         </div>
     </div>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript" src="./index.js"></script>
 </body>
 
 </html>

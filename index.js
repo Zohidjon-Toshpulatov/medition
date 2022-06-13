@@ -1,9 +1,10 @@
-
-
-// function showSlides(index) {
-//     const caraousel = document.getElementById('custom-caraosel');
-//     var carousel = new bootstrap.Carousel(caraousel)
-//     const cItems = document.getElementsByClassName('modal-c-item')
-//     carousel.to(i)
-//     console.log(cItems[i])
-// }
+$(".slider").slick({
+    // normal options...
+    infinite: false,
+    rtl: true,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    autoplay: false,
+    prevArrow: $('.slick-prev'),
+    nextArrow: $('.slick-next')
+  });
